@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #e2a8d2, #b9015d);
+    background-attachment: fixed;
+}
+
+.card {
+    background: linear-gradient(to bottom, #ffe0f0, #ff9acb);
+    border: none;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #4f14ff, #9087eb);
+    border: none;
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(to right, #6e6e6e, #a8a8a8);
+    border: none;
+}
+
+.btn-success:hover {
+    background: linear-gradient(to right, #28a745, #6ddf8a);
+    border: none;
+}
+
+

@@ -1,1 +1,28 @@
-/* 2ª Digitação (Aqui) */
+.custom-form {
+    background: linear-gradient(145deg, #2c3e50, #3498db );
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.form-label {
+    color: white;
+}
+
+.custom.icon {
+    background-color: #3498db;
+    border: #3498db;
+}
+
+/* Suv escrevendo uma classe do Bootstrap */
+/* .btn.btn-primary {
+    background: linear-gradient(45deg, #c90202, #000000 );
+    padding: 0.8 rem 2rem;
+    border-radius: 50px;
+    border: none;
+} */
+.custom-button {
+    background: linear-gradient(45deg, #c90202, #000000 );
+    padding: 0.8 rem 2rem;
+    border-radius: 50px;
+    border: none;
+}

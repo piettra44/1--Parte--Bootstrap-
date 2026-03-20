@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(#e2a8d2, #b9015d);
+}
+
+.custom-form {
+    background: linear-gradient(145deg, rgb(166, 107, 139), #810261 );
+    padding: 6rem;
+    border-radius: 25px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-label {
+    color: white;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+.custom-button {
+    background: #b9015d ;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    border: none;
+}
+
+.custom-button:hover {
+    background: linear-gradient(to right, #e2a8d2, #b9015d);
+    border: 2px solid black;
+    transform: scale(1.05);
+}
+
+.custom.icon {
+    background-color: #3498db;
+    border: #3498db;
+}
+
+/* Suv escrevendo uma classe do Bootstrap */
+/* .btn.btn-primary {
+    background: linear-gradient(45deg, #c90202, #000000 );
+    padding: 0.8 rem 2rem;
+    border-radius: 50px;
+    border: none;
+} */
+
