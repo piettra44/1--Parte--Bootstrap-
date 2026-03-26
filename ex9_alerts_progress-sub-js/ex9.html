@@ -18,9 +18,13 @@
              BOTÕES DE CONTROLE DOS ALERTS
              ================================ -->
 
+          <div class="mb-3">
+               <button class="btn btn-success me-2" onclick="mostrarSucesso()">Mostrar Sucesso</button>
+               <button class="btn btn-danger me-2" onclick="mostrarErro()">Mostrar Erro</button>
+               <button class="btn btn-warning me-2" onclick="mostrarToast()">Mostrar Toast</button>
+          </div>
 
-        <!-- 1ª Digitação (Aqui) -->
-
+          
 
         <!-- ================================
              ALERT DE SUCESSO
@@ -30,7 +34,10 @@
 
 
 
-        <!-- 2ª Digitação (Aqui) -->
+         <div class="alert alert-success alert-dismissible fade" id="successAlert">
+          <strong>Sucesso!</strong>Operação realizada com sucesso!
+          <button class="btn-close" type="button" onclick="fecharAlert('successAlert')"></button>
+         </div>
 
 
 
@@ -50,10 +57,19 @@
              ================================ -->
 
 
-
-        <!-- 3ª Digitação (Aqui) -->
-
-
+          <div class="position-fixed top-50 start-50 translate-middle p-3" style="z-index: 10;">
+               <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                         <strong class="me-auto">Notificação</strong>
+                         <small>Agora</small>
+                         <button class="btn-close" type="button" data-bs-dismiss="toast"></button>
+                    </div>
+                    <!-- Corpo da notificação -->
+                    <div class="toast-body">
+                         Esta é uma mensagem de toast!
+                    </div>
+               </div>
+          </div>
 
 
         <!-- ================================
@@ -80,11 +96,18 @@
 
 
 
-        <!-- 4ª Digitação (Aqui) -->
+        <div class="btn-group me-2">
+          <!-- Botão para diminuir a % da barra de progresso -->
+          <button class="btn btn-primary" onclick="updateProgress(-10)">-10%</button>
 
-        
+          <!-- Botão para aumentar a % da barra de progresso -->
+          <button class="btn btn-primary" onclick="updateProgress(10)">+10%</button>
 
-
+          <!-- Ligar/Desligar (Animação da barra de progresso) -->
+           <button class="btn btn-success" id="toggleAnimationBtn" onclick="toggleAnimacao()">
+               Ligar animação
+           </button>
+        </div>
     </div>
 
     <!-- Bootstrap JS (necessário para o componente Toast funcionar) -->
