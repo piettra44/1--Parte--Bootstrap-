@@ -19,7 +19,7 @@ body {
 }
 
 .secondary-bg-color {
-  background-color: #976DF2;
+  background-color: #dc358e;
 }
 
 .light-bg-color {
@@ -32,7 +32,7 @@ body {
 
 /* Classes para diferentes cores de texto */
 .primary-color {
-  color: #976DF2;
+  color: #dc358e;
 }
 
 .secondary-color {
@@ -76,7 +76,7 @@ body {
 
 /* Define estilo de cor quando o mouse passa sobre os ícones */
 #navbar i:hover {
-  color: #976DF2;
+  color: #dc358e;
 }
 
 /* Define estilo para caixa com número (ex: quantidade de itens) */
@@ -297,7 +297,7 @@ body {
 
 /* Estilos específicos para o primeiro mini banner */
 #mini-banners #mini-banner-1 a:hover {
-  color: #976DF2;
+  color: #dc358e;
 }
 
 /* Estilos específicos para o terceiro mini banner */
@@ -307,7 +307,7 @@ body {
 
 /* Estilos de hover específicos para o terceiro mini banner */
 #mini-banners #mini-banner-3 a:hover {
-  color: #976DF2;
+  color: #dc358e;
 }
 
  /* -- -----------------------Fase 3------------------------ -- */
@@ -361,7 +361,7 @@ body {
 
 .discount-price {
   font-size: 24px;
-  color: #976DF2; /* Cor destacada para o preço mais baixo */
+  color: #dc358e; /* Cor destacada para o preço mais baixo */
 }
 
 /* Estilos para os cartões de produtos */
@@ -390,13 +390,13 @@ body {
 /* Estilos para os botões de compra */
 .btn {
   background-color: transparent;
-  border-color: #976DF2;
+  border-color: #dc358e;
 }
 
 /* Estilos de hover para os botões de compra */
 .btn:hover {
-  background-color: #976DF2;
-  border-color: #976DF2;
+  background-color: #dc358e;
+  border-color: #dc358e;
 }
 
 /* ----------------------------------------------------------- */
@@ -487,7 +487,7 @@ body {
 
 /* Estilos ao passar o mouse sobre as imagens */
 #gallery .image-container:hover {
-  border-color: #9760F2;
+  border-color: #dc358e;
 }
 
 /* Define a imagem de fundo para cada container */
@@ -558,7 +558,7 @@ body {
 
 /* Estilos ao passar o mouse sobre os links nos itens de lista do rodapé */
 #footer-links-container li a:hover {
-  color: #9760F2;
+  color: #dc358e;
 }
 
 /* Estilos para a coluna central no rodapé */
@@ -574,7 +574,7 @@ body {
 
 /* Estilos para o número de telefone na coluna central do rodapé */
 #footer-center .store-phone {
-  color: #9760F2;
+  color: #dc358e;
   font-weight: bold;
   font-size: 2rem;
   margin-top: -15px;
@@ -622,7 +622,7 @@ body {
 
 /* Estilos ao passar o mouse sobre os ícones de redes sociais */
 #social-container i:hover {
-  color: #9760F2;
+  color: #dc358e;
 }
 
 /* Estilos para o container de direitos autorais */
